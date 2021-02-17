@@ -36,8 +36,8 @@ jobs:
          run: |
             git clone --recurse-submodules https://github.com/WhiteMouseHuang/ErfanGSIs.git
             sudo chmod -R 777 ErfanGSIs
-            wget --no-check-certificate --content-disposition https://github.com/Mikubill/transfer/releases/download/v0.4.8-beta/transfer_0.4.8-beta2_linux_amd64.tar.gz
-             tar -zxvf transfer_0.4.8-beta2_linux_amd64.tar.gz
+            wget --no-check-certificate --content-disposition https://github.com/Mikubill/transfer/releases/download/v0.4.8-beta/transfer_0.4.8-beta4_linux_amd64.tar.gz
+             tar -zxvf transfer_0.4.8-beta4_linux_amd64.tar.gz
              
        - name: Setting up Porting Environment
          run: |
